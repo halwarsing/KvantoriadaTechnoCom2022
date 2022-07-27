@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1",
+	"FriendlyName": "HalKvantoriadaPlugin",
+	"Description": "Plugin for Kvantoriada TechnoCom 2022",
+	"Category": "Halwarsing.net",
+	"CreatedBy": "halwarsing",
+	"CreatedByURL": "https://github.com/halwarsing/KvantoriadaTechnoCom2022",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.0.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "HalKvantoriadaPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformDenyList": [
+				"Android",
+				"IOS",
+				"TVOS",
+				"Mac",
+				"Linux",
+				"LinuxArm64"
+			]
+		}
+	]
+}
